@@ -1,0 +1,23 @@
+; Engine configuration file.
+; UNO AI - Arabic mobile prototype
+config_version=5
+
+[application]
+config/name="UNO AI - صقر إياد الجزار"
+run/main_scene="res://Main.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[display]
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/size/window_width_override=720
+window/size/window_height_override=1280
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+
+[input]
+ui_accept={"deadzone": 0.5, "events": [Object(InputEventKey,"physical_keycode":4194309)]}
